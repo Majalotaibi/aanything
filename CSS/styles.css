@@ -116,6 +116,13 @@ p {
     text-align: center;
     background-color: #96BB7C;
     color: #274427;
+    
+}
+
+.testimonial-text{
+    height: 100px;
+    width: 100%;
+
 }
 
 #press {
@@ -136,6 +143,11 @@ p {
 
 #pricing h2, p {
     padding-bottom: 5%;
+}
+
+.btone {
+    
+    margin-top: 48px;
 }
 
 .themapp{
@@ -267,5 +279,12 @@ footer p {
     #iphone {
         position: static;
         transform: rotate(0);
+    }
+
+    #pricing {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 }
